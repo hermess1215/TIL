@@ -553,11 +553,11 @@ console.log(numbers.find((x) => x % 2 === 0))
 console.log(numbers.reduce((p, n) => p + n, 0))
 ```
 
-![image.png](attachment:6a08e6ec-10e4-4a64-8d66-6227f223d0e8:image.png)
+![image.png](../../img/JS_reduce.png)
 
 ### reduce()함수가 작동하는 순서
 
-![image.png](attachment:fd8d2b88-c437-456b-8000-82b02d8dd2d6:image.png)
+![image.png](../../img/JS_order.png)
 
 1. 초기값인 0이 p에 입력된다.
 2. numbers array에 첫 번째 값인 1이 n에 입력된다.
