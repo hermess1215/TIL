@@ -4,7 +4,7 @@
 
 보통 **React**에서는 데이터를 가져올 때 **useEffect**안에서 가져온다. 하지만 **Nextjs**에서는 다른 방법을 사용해서 가져온다.
 
-![image.png](../../img/fetching-ways.png)
+![image.png](../../img/Next_fetching-ways.png)
 
 ## getStaticProps
 

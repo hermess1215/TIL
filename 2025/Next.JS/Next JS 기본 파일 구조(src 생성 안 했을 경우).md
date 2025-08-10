@@ -1,4 +1,4 @@
-![image.png](../../img/structure.png)
+![image.png](../../img/Next_structure.png)
 
 ## pages
 

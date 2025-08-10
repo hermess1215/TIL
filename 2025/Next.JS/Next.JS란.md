@@ -6,9 +6,9 @@
 하지만 **Next.js**에서는 **Pre-Rendering**을 통해서 페이지를 미리 렌더링 하며 완성된 HTML을 가져오기 때문에 사용자와 검색 엔진 크롤러에게 바로 렌더링 된 페이지를 전달할 수 있게 된다.
 **React**에서도 **SSR**을 지원하지만 구현하기에 굉장히 복잡하기 때문에 Next.js를 통해서 이 문제를 해결해주게 된다.
 
-![csr.png](../../img/CSR.png)
+![csr.png](../../img/Next_CSR.png)
 
-![ssr.png](../../img/SSR.png)
+![ssr.png](../../img/Next_SSR.png)
 
 ## SSR(Server Side Rendering)
 
