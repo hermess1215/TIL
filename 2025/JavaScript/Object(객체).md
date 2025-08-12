@@ -151,3 +151,81 @@ console.log(yuJin3)
 { name: '안유진' }
 
 위 코드처럼 key 이름도 name이고, 밸류 값에 들어갈 것도 name 변수이면 하나만 써도 된다.
+
+전체 코드
+
+```javascript
+// key : value pair
+let yuJin = {
+    name: '안유진',
+    group: '아이브',
+    dance: function() {
+        return `${this.name}이 춤을 춥니다.`
+    }
+}
+console.log(yuJin)
+console.log(yuJin.name)
+console.log(yuJin['name'])
+
+const key = 'name'
+console.log(yuJin[key])
+
+console.log(yuJin.dance())
+
+console.log('----------------')
+
+const nameKey = 'name'
+const nameValue = '안유진'
+
+const groupKey = 'group'
+const groupValue = '아이브'
+
+const yuJin2 = {
+    [nameKey] : nameValue,
+    [groupKey] : groupValue,
+    dance : function() {
+        return `${this.name}이 춤을 춥니다.`
+    }
+}
+console.log(yuJin2)
+console.log(yuJin2.dance())
+
+yuJin2['group'] = '코드팩토리'
+console.log(yuJin2)
+
+yuJin2['englishName'] = 'An Yu Jin'
+console.log(yuJin2)
+
+delete yuJin2['englishName']
+console.log(yuJin2)
+
+console.log('----------------')
+
+const wonYoung = {
+    name : '장원영',
+    group : '아이브',
+}
+console.log(wonYoung)
+
+// wonYoung = {} // 에러
+
+wonYoung['group'] = '코드팩토리'
+console.log(wonYoung)
+
+console.log('----------------')
+
+// 모든 키 값 가져오기
+console.log(Object.keys(wonYoung))
+
+// 모든 밸류 값 가져오기
+console.log(Object.values(wonYoung))
+
+console.log('----------------')
+
+const name = '안유진'
+
+const yuJin3 = {
+    name,
+}
+console.log(yuJin3)
+```
